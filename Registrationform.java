@@ -1,10 +1,9 @@
-
+package reservation;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-import reservation.*;
 import java.sql.*;
 import javax.swing.JOptionPane;
 import java.awt.event.ActionEvent;
@@ -104,11 +103,6 @@ public class Registrationform extends javax.swing.JFrame {
 
         r1.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         r1.setText("MALE");
-        r1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                r1ActionPerformed(evt);
-            }
-        });
 
         r2.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         r2.setText("FEMALE");
@@ -291,10 +285,6 @@ public class Registrationform extends javax.swing.JFrame {
     private void t3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_t3ActionPerformed
-
-    private void r1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_r1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_r1ActionPerformed
     private void buttonGroup2ActionPerformed(java.awt.event.ActionEvent evt)
     {
         String sample;
@@ -338,7 +328,6 @@ public class Registrationform extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Registrationform.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
